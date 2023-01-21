@@ -1,0 +1,50 @@
+/* SECTION ELEMENTAL SELECTORS */
+
+header{
+  background-color: #5386E4;
+  color: #F8F8F8;
+}
+
+a{
+  color: #F8F8F8;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+/* SECTION CLASS SELECTORS */
+
+.form-input-fill-width{
+  width: 100%;
+}
+
+.bg-img{
+  background-image: url(https://images.unsplash.com/photo-1596251822183-f0cf75473b67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-color{
+  background-color: #1f6dff9e;
+}
+
+.nonsense-subtitle{
+  font-size: 8pt;
+}
+
+.waffle-icon{
+  margin-right: -.7em;
+}
+
+.hiding-text{
+  transform: translateY(-3em);
+}
+
+.bg-spill{
+  background-color: #5386E4;
+}
+
+/* SECTION ID SELECTORS */
