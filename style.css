@@ -47,4 +47,13 @@ a:hover{
   background-color: #5386E4;
 }
 
+.spill-card{
+  height: 110%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transform: translate(7%, 16%);
+}
+
 /* SECTION ID SELECTORS */
