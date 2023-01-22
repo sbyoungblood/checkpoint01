@@ -56,4 +56,30 @@ a:hover{
   transform: translate(7%, 16%);
 }
 
+.flowers-img{
+  height: 40em;
+  width: 28em;
+  object-fit: cover;
+}
+
+.huge-text-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(3em);
+}
+
+.big-text{
+  font-size: 40pt;
+}
+
+.more-btn{
+  display: flex;
+  justify-content: end;
+}
+
+/* .card-shadow{
+  box-shadow: 10px, 10px, 5px black;
+} */
+
 /* SECTION ID SELECTORS */
