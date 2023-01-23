@@ -5,6 +5,16 @@ header{
   color: #F8F8F8;
 }
 
+footer{
+  background-color: #F8F8F8;
+  color: #5386E4;
+  font-size: 15pt;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 a{
   color: #F8F8F8;
   text-decoration: none;
@@ -77,6 +87,41 @@ a:hover{
   display: flex;
   justify-content: end;
 }
+
+.testimonial-row{
+  background-color: lightgray;
+  height: 60vh;
+}
+
+.testimonial-card{
+  height: 16em;
+}
+
+.testimonial-card-big{
+  height: 19em;
+}
+
+.quote-icon{
+  display: flex;
+  justify-content: start;
+  padding-left: 2em;
+}
+
+.quote-color{
+  color: blue;
+}
+
+.last-row{
+  background-color: #5386E4;
+  height: 35vh;
+}
+
+.final-words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;;
+}
+
 
 /* .card-shadow{
   box-shadow: 10px, 10px, 5px black;
