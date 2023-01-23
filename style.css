@@ -64,11 +64,19 @@ a:hover{
   flex-direction: column;
   justify-content: space-evenly;
   transform: translate(7%, 16%);
+  box-shadow: 1px 3px 5px black;
+}
+
+/* FIXME custom media query to turn off spill card on md size screen or smaller */
+@media screen and (max-width: 768px) {
+  .spill-card{
+    transform: translate(0);
+  }
 }
 
 .flowers-img{
-  height: 40em;
-  width: 28em;
+  max-height: 40em;
+  max-width: 28em;
   object-fit: cover;
 }
 
@@ -90,15 +98,15 @@ a:hover{
 
 .testimonial-row{
   background-color: lightgray;
-  height: 60vh;
+  min-height: 60vh;
 }
 
 .testimonial-card{
-  height: 16em;
+  min-height: 16em;
 }
 
 .testimonial-card-big{
-  height: 19em;
+  min-height: 19em;
 }
 
 .quote-icon{
@@ -113,7 +121,7 @@ a:hover{
 
 .last-row{
   background-color: #5386E4;
-  height: 35vh;
+  min-height: 35vh;
 }
 
 .final-words{

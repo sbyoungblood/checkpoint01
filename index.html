@@ -41,11 +41,11 @@
   <header class="sticky-top">
     <!-- SECTION NAVBAR -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-1 d-flex justify-content-center align-items-center">
+      <div class="row py-3">
+        <div class="col-lg-6 d-md-flex justify-content-center align-items-center">
           <i class="fa-solid fa-stroopwafel fa-4x waffle-icon"></i>
         </div>
-        <div class="col-12 col-md-4 p-3">
+        <div class="col-lg-6 ">
           <div>
             <h1 class="g-font">B A W B O O N</h1>
           </div>
@@ -53,7 +53,7 @@
             <h6 class="nonsense-subtitle">BUILDING A WEBSITE BASED OFF OF NONSENSE</h6>
           </div>
         </div>
-        <div class="col-6 d-flex justify-content-end gap-5 align-items-center pe-5">
+        <div class="d-none col-lg-6 d-md-flex justify-content-end gap-5 align-items-center pe-5">
           <h4><a href="">these</a></h4>
           <h4><a href="">links</a></h4>
           <h4><a href="">take</a></h4>
@@ -68,9 +68,9 @@
     <div class="container-fluid">
       <div class="row bg-img">
         <!-- SECTION FORM -->
-        <div class="col-4 col-md-4 ps-3">
+        <div class="col-md-4 ps-3">
           <h6 class="px-3 pt-5 ms-5">subtle heading</h6>
-          <div class="card p-3 mx-5 mb-5 card-color">
+          <div class="card p-3 mx-lg-5 mb-5 card-color">
             <h5 class="p-2">less subtle heading</h5>
             <form>
               <input type="text" class="form-input-fill-width my-2" placeholder="WHAT ARE YOU CALLED">
@@ -98,8 +98,8 @@
           </div>
         </div>
         <!-- SECTION HIDING TEXT-->
-        <div class="col-5 offset-1 d-flex align-items-center">
-          <div class="hiding-text">
+        <div class="col-md-5 offset-md-1 d-flex align-items-center">
+          <div class="d-none d-md-block hiding-text">
             <h1>This text currently resides over an image</h1>
             <p>but if the screen suddenly shrinks down to something handheld, this stuff aint gonna be here</p>
           </div>
@@ -107,15 +107,15 @@
       </div>
       <div class="row bg-spill">
         <!-- SECTION SPILL CARD -->
-        <div class="col-4 p-3 ms-5 py-5">
+        <div class="col-md-4 order-md-0 order-1 py-5">
           <h2 class="mt-5">Some large random header with words</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum rem quis reiciendis, animi tenetur
             perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum rem quis reiciendis, animi
             tenetur
             perspiciatis.</p>
         </div>
-        <div class="col-7 d-flex justify-content-center">
-          <div class="card  spill-card card-shadow shadow">
+        <div class="col-md-7 order-md-1 order-0 d-flex justify-content-center">
+          <div class="card spill-card card-shadow">
             <div>
               <h5><i class="fa-solid fa-star ps-5 pe-3 pt-4"></i>Lorem, ipsum dolor sit amet consectetur adipisicing.
               </h5>
@@ -137,10 +137,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-4 p-0"><img
+        <div class="col-md-4 p-0"><img
             src="https://images.unsplash.com/photo-1615840788094-a4df00dce64b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
             alt="flowers" class="flowers-img pt-5 mb-5 ps-5"></div>
-        <div class="col-6 offset-1 huge-text-section">
+        <div class="col-md-6 offset-md-1 huge-text-section">
           <div class="big-text pt-5 pb-2">
             <i class="fa-solid fa-house pe-3"></i>This is some big old text right here. Very large. Huge.
           </div>
@@ -158,58 +158,69 @@
       </div>
     </div>
     <!-- SECTION TESTIMONIALS -->
+
+    <!-- NOTE ON SMALL SCREENS THE ITEMS WILL STACK ON EACH OTHER BY MAKING THEIR COLUMNS -->
+
     <div class="container-fluid">
       <div class="row testimonial-row justify-content-center justify-content-evenly py-5 align-items-center">
-        <div class="col-3 card testimonial-card text-center pt-4">
-          <div class="quote-icon">
-            <i class="fa-solid fa-quote-left fa-2x"></i>
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Ad
-            quam ipsum,
-            vitae commodi ipsam obcaecati cumque! Sunt optio saepe voluptatem!
-          </div>
-          <div class="quote-color pt-3">
-            bob <br>
-            somewhere, someplace
-          </div>
-        </div>
-        <div class="col-3 card testimonial-card-big text-center pt-4">
-          <div class="trophy d-flex justify-content-center justify-content-evenly py-3">
-            <i class="fa-solid fa-trophy fa-3x"></i><i class="fa-solid fa-trophy fa-3x"></i><i
-              class="fa-solid fa-trophy fa-3x"></i>
-          </div>
-          <div class="quote-icon">
-            <i class="fa-solid fa-quote-left fa-2x"></i>
-          </div>
-          <div>Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Facere sunt nisi deleniti earum nostrum commodi consequuntur molestias!
-          </div>
-          <div class="quote-color pt-3">
-            sue <br>
-            somewhere, someplace
+        <div class="text-center col-md-3 order-md-2">
+          <div class="card testimonial-card">
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left fa-2x"></i>
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Ad
+              quam ipsum,
+              vitae commodi ipsam obcaecati cumque! Sunt optio saepe voluptatem!
+            </div>
+            <div class="quote-color pt-3">
+              bob <br>
+              somewhere, someplace
+            </div>
           </div>
         </div>
-        <div class="col-3 card testimonial-card text-center pt-4">
-          <div class="quote-icon">
-            <i class="fa-solid fa-quote-left fa-2x"></i>
+        <div class="col-md-3 order-md-1 text-center">
+          <div class="card testimonial-card-big">
+
+            <div class="trophy d-flex justify-content-center justify-content-evenly py-3">
+              <i class="fa-solid fa-trophy fa-3x"></i><i class="fa-solid fa-trophy fa-3x"></i><i
+                class="fa-solid fa-trophy fa-3x"></i>
+            </div>
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left fa-2x"></i>
+            </div>
+            <div>Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Facere sunt nisi deleniti earum nostrum commodi consequuntur molestias!
+            </div>
+            <div class="quote-color pt-3">
+              sue <br>
+              somewhere, someplace
+            </div>
           </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Consequatur
-            inventore alias numquam doloremque dolorem vitae delectus magni animi iusto earum.
-          </div>
-          <div class="quote-color pt-3">
-            joe <br>
-            somewhere, someplace
+        </div>
+        <div class="col-md-3 text-center order-md-3">
+          <div class="card testimonial-card">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left fa-2x"></i>
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Consequatur
+              inventore alias numquam doloremque dolorem vitae delectus magni animi iusto earum.
+            </div>
+            <div class="quote-color pt-3">
+              joe <br>
+              somewhere, someplace
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row last-row">
-        <div class="col-8 final-words offset-1">
+        <div class="col-md-8 final-words offset-1">
           <div class="big-text">This part is nearly done.</div>
           <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam magnam neque dolore possimus
             eaque!</div>
