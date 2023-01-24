@@ -84,11 +84,11 @@ a:hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transform: translateY(3em);
+  /* transform: translateY(3em); */
 }
 
 .big-text{
-  font-size: 40pt;
+  font-size: 30pt;
 }
 
 .more-btn{
@@ -133,6 +133,8 @@ a:hover{
 .g-font{
   font-family: 'Roboto Slab', serif;
 }
+
+
 
 
 /* .card-shadow{
